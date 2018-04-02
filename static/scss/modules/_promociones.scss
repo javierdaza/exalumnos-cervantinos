@@ -1,0 +1,98 @@
+.member{
+	margin-bottom: 1rem;
+	color: white;
+}
+
+.member:nth-child(1){
+	margin-top: 4rem;
+}
+
+.member:nth-child(odd){
+	background-color: $verde_musgo;
+}
+
+.member:nth-child(even){
+	background-color: $grey_medium;
+}
+
+.members,
+.member__networks__list{
+	list-style: none;
+}
+
+.member__bio{
+	width: 77%;
+}
+
+.member__bio,
+.member__name{
+	margin-left: 1.3rem;
+}
+
+.member__img{
+	width: 18%;
+	float: left;
+}
+
+.member__grad{
+	font-size: .7rem;	  
+	margin-top: 2.04rem;
+}
+
+.member__name{
+	width: 22%;
+}
+
+.member__img,
+.member__name,
+.member__grad,
+.member__bio,
+.member__networks{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.member_div,
+.member__grad,
+.member__bio{
+	overflow: hidden;
+}
+
+.schools__item{
+	@extend %one-third;
+	display: inline-block;
+	width: 32%;
+}
+
+.schools__item-img{
+	width: 90%;
+  	height: 100%;
+}
+
+.schools__item-title{
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.schools__item__div{
+	width: 90%;
+	background-color: $verde_musgo;
+}
+
+.school-form__link{
+  	color: #6E6F73;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding-bottom: 1.5rem;
+}
+
+.school-form{
+	text-align: center;
+}
+
+.school-form__select{
+	margin: .5rem 0;
+}

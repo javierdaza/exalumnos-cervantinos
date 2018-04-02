@@ -1,0 +1,103 @@
+.articles,
+.banner,
+.stats{
+	@extend %one-whole;
+}
+
+.articles__main-title{
+	font-size: 2rem;
+}
+
+.articles__post-title{
+	font-size: 1.2rem;
+	margin-bottom: 0;
+}
+
+.articles__post-img{
+	height: auto;
+	width: 80%;
+}
+.articles__main-title,
+.articles__post-title{
+	color: $verde_musgo;
+}
+
+.articles__header,
+.articles__post-description{
+	@extend %one-half;
+	display: inline-block;
+}
+
+.articles__post-description{
+	margin-top: .9rem;
+}
+
+.articles__post-figure{
+	display: inline-block;
+	margin: -1.3rem 0 1rem 4%;
+	text-align: right;
+	vertical-align: top;
+	width: 45%;
+}
+
+.banner{
+	background: url("../img/banner-home2.jpg") no-repeat center;
+	margin-top: -2.6rem;
+	border-bottom: solid $verde_musgo 1rem;
+}
+
+.banner__title{
+	color: white;
+	font-size: 2.6rem;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 7rem;
+	margin: 2.6rem auto;
+  	width: 60%;
+}
+
+.banner__text{
+	color: white;
+	padding-bottom: 7rem;
+}
+
+.stats{
+	background-color: $grey_dark;
+	margin-top: 0rem;
+}
+
+.stats:nth-child(3){
+	@extend %push--two-quarters;
+}
+
+.stats__division{
+	@extend %one-third;
+	display: inline-block;
+	width: 33%;
+}
+
+.stats__number{
+	color: $yellow_light;
+	display: inline-block;
+	font-size: 4rem;
+	margin: 0 29%;
+	padding-top: 2rem;
+}
+
+.stats__text{
+	color: white;
+	display: inline-block;
+	margin: 0 23%;
+	padding-bottom: 3rem;
+	width: 88%;
+}
+
+.links{
+	color: $verde_musgo;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.links:hover{
+	text-decoration: underline;
+}

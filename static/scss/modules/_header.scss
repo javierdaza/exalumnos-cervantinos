@@ -1,0 +1,127 @@
+.brand,
+.nav, 
+.nav__list-element{
+	display: inline-block;
+}
+
+.background-img{
+	@extend %one-whole;
+	background: url("../img/banner-index.jpg") no-repeat center;
+	background-size: cover !important;
+	height: 28rem;
+	padding-top: 100px;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+.background-img,
+.main-slide,
+.header,
+.submenu{
+	@extend %one-whole;
+}
+
+.brand{
+	@extend %one-quarter;
+}
+
+.brand__logo{
+	width: 36%;
+}
+
+.header{
+	@extend %grid;
+	@extend %grid--full;
+	background: none;
+	/*z-index: 10;*/
+}
+
+
+.main-slide__title{
+	color: #2B2E34;
+	font-size: 3.3rem;
+	margin-bottom: 0;
+	margin-top: 8%;
+	text-transform: uppercase;
+}
+
+.main-slide__subtitle{
+	font-size: 1.1rem;
+	font-weight: normal;
+}
+
+.main-slide__title,
+.main-slide__subtitle{
+	@extend %one-half;
+	@extend %push--two-quarters;
+}
+
+.nav{
+	@extend %two-quarters;
+	@extend %push--one-quarter;
+	list-style-type: none;
+	left: 18.5%;
+}
+
+.nav__list{
+	@extend %push--one-quarter
+}
+
+.nav__list-element{
+	margin-left: 1.5rem;
+}
+
+.nav__list-element:hover{
+	background-color: $verde_musgo;
+	color: white;
+	cursor: pointer;
+	padding: .3rem;
+	border-radius: .2rem;
+}
+
+.nav__list-link{
+	color: $grey_text;
+	text-decoration: none;
+}
+
+.nav__list-link:hover{
+	color: white;
+}
+
+.nav__list-link--active{
+	background-color: $verde_musgo;
+	color: white;
+	cursor: pointer;
+	padding: .3rem;
+	border-radius: .2rem;
+}
+
+.submenu{
+	margin-top: 13%;
+	background-color: $green_light;
+}
+
+.submenu__option:nth-child(2n+1) {
+	background-color: $verde_musgo;
+}
+
+.submenu__option{
+	@extend %one-quarter;
+	display: inline-block;
+	height: 7rem;
+	padding: .5rem 4%;
+	vertical-align: top;
+}
+
+.submenu__link{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.submenu__title{
+	font-size: 1.3rem;
+	font-weight: normal;
+	text-align: center;
+}

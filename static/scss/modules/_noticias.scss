@@ -1,0 +1,46 @@
+.articles__post-title__blog{
+	font-size: 1.7rem;
+	text-transform: capitalize;
+}
+
+.green-title{
+	background-color: $verde_musgo;
+}
+
+.green-title__header{
+	color: white;
+	font-size: 1rem;	
+	font-weight: normal; 
+	margin-top: 0;
+  	padding: 1.5rem 0;
+  	text-transform: uppercase;
+}
+
+.yellow-backgnd{
+	border-top: .4rem solid $grey_light;
+	height: 22rem;
+	margin-top: .7rem;
+}
+
+.yellow-backgnd-news{
+	background: url("../img/banner-blog.jpg") no-repeat center;
+}
+
+.yellow-backgnd-title,
+.yellow-backgnd-subtitle{
+	color: white;
+	text-transform: uppercase;
+}
+
+.yellow-backgnd-title{
+	font-size: 3.2rem;
+	margin-top: 15%;
+	margin-bottom: 0;
+}
+
+.yellow-backgnd-subtitle{
+    font-size: 1.7rem;
+  	font-weight: normal;
+	margin-left: 0.1rem;
+    margin-top: -.5rem;
+}

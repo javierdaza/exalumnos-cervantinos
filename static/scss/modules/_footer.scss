@@ -1,0 +1,61 @@
+.contact-us__list,
+.social-networks__list{
+	list-style-type: none;
+	padding-left: 0;
+}
+.footer{
+	background-color: #212927;
+	color: white;
+	font-size: .8rem;
+	margin-top: 3rem;
+	padding: 1rem 0;
+}
+
+.footer__title{
+	font-size: 1.3rem;
+}
+
+.contact-us .footer__title,
+.social-networks .footer__title,
+.contact-us__list,
+.social-networks__list{
+	padding-left: 15%;
+}
+
+.footer__second-row-text{
+	margin-bottom: 0;
+	text-align: right;
+}
+
+.social-networks__element{
+	display: inline-block;
+	vertical-align: top;
+	width: 10%;
+}
+
+.social-networks__icon{
+	fill:#212927;
+}
+
+.social-networks__icon g path{
+	fill:#FFFFFF;
+}
+
+.social-networks__svg{
+	width: 90%;
+}
+
+.tweets__list{
+	padding-left: 1.5rem;
+	padding-right: 1rem;
+	list-style-image: url(../img/twitter-16.png);
+}
+
+.tweets,
+.contact-us,
+.social-networks{
+	@extend %one-third;
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+}
